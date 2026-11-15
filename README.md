@@ -35,7 +35,11 @@
 
 ## 記事の書き方
 
-`content/posts/` に Markdown ファイルを置く。frontmatter はこの形式。
+`content/posts/` に Markdown ファイルを置く。Studio なら `posts/template.md` を複製して使うと楽。
+
+> `posts/template.md` は消さないこと。記事が0件になると Studio に `posts/` フォルダが表示されなくなるので、その対策として置いている。
+
+frontmatter はこの形式。
 
 ```md
 ---
@@ -56,7 +60,7 @@ draft: false
 | `description` | | 一覧ページに出る説明文 |
 | `date` | ○ | 公開日（`YYYY-MM-DD`）。一覧はこの日付の新しい順に並ぶ |
 | `tags` | | タグの配列 |
-| `draft` | | `true` にすると一覧に出なくなる（デフォルト `false`） |
+| `draft` | | `true` にすると一覧に出ず、URL を直接開いても 404 になる（Studio にログイン中はプレビューできる）。デフォルト `false` |
 
 ## ブラウザから編集する（Nuxt Studio）
 

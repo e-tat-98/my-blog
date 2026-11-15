@@ -2,7 +2,7 @@
 
 個人の記事を置くブログサイト。
 
-**サイト:** https://egu-blog.vercel.app/
+**サイト:** https://e-tat-98-blog.vercel.app/
 
 ## 技術構成
 
@@ -64,7 +64,7 @@ draft: false
 
 ## ブラウザから編集する（Nuxt Studio）
 
-1. https://egu-blog.vercel.app/_studio を開く
+1. https://e-tat-98-blog.vercel.app/_studio を開く
 2. GitHub でログインする
 3. 記事を追加・編集・削除して **Publish** する
 4. `main` ブランチにコミットされ、Vercel が自動で再デプロイして反映される
@@ -98,7 +98,7 @@ pnpm dev      # http://localhost:3000
 
 GitHub OAuth App（https://github.com/settings/developers）のコールバック URL は次のとおり。
 
-- 本番: `https://egu-blog.vercel.app/__nuxt_studio/auth/github`
+- 本番: `https://e-tat-98-blog.vercel.app/__nuxt_studio/auth/github`
 - ローカル: `http://localhost:3000/__nuxt_studio/auth/github`（本番とは別の OAuth App を作る）
 
 ## デプロイ

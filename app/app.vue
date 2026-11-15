@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <header class="site-header">
-      <NuxtLink to="/" class="site-title">my-posts</NuxtLink>
+      <NuxtLink to="/" class="site-title">My Blog</NuxtLink>
     </header>
     <main>
       <NuxtPage />

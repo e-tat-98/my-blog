@@ -7,7 +7,7 @@ const { data: posts } = await useAsyncData('posts', () =>
     .all(),
 )
 
-useSeoMeta({ title: 'my-posts' })
+useSeoMeta({ title: 'My Blog' })
 </script>
 
 <template>
@@ -19,6 +19,9 @@ useSeoMeta({ title: 'my-posts' })
           <time :datetime="post.date">{{ formatDate(post.date) }}</time>
           <h2>{{ post.title }}</h2>
           <p v-if="post.description">{{ post.description }}</p>
+          <div v-if="post.tags?.length" class="post-tags">
+            <span v-for="tag in post.tags" :key="tag" class="tag">#{{ tag }}</span>
+          </div>
         </NuxtLink>
       </li>
     </ul>

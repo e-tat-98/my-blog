@@ -50,7 +50,10 @@ time { color: var(--muted); font-size: 0.875rem; }
 
 .prose pre { background: var(--code-bg); padding: 16px; border-radius: 6px; overflow-x: auto; }
 .prose :not(pre) > code { background: var(--code-bg); padding: 2px 6px; border-radius: 4px; }
-.prose img { max-width: 100%; }
+.prose img { display: block; max-width: 100%; max-height: 640px; margin: 16px auto; border: 1px solid var(--border); border-radius: 6px; }
+.prose table { border-collapse: collapse; width: 100%; }
+.prose th, .prose td { border: 1px solid var(--border); padding: 6px 12px; text-align: left; }
+.prose blockquote { margin: 16px 0; padding: 0 16px; border-left: 4px solid var(--border); color: var(--muted); }
 
 /* Shiki のダークテーマ切り替え */
 @media (prefers-color-scheme: dark) {

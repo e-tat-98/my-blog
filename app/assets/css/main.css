@@ -45,7 +45,8 @@ a { color: var(--accent); }
 
 time { color: var(--muted); font-size: 0.875rem; }
 
-.post-meta { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.post-title { margin: 0 0 8px; font-size: 1.75rem; line-height: 1.4; }
+.post-meta { margin-bottom: 32px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
 .tag { font-size: 0.875rem; color: var(--muted); }
 
 .prose pre { background: var(--code-bg); padding: 16px; border-radius: 6px; overflow-x: auto; }

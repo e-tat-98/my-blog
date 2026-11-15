@@ -20,6 +20,7 @@ useSeoMeta({
 
 <template>
   <article v-if="post" class="post">
+    <h1 class="post-title">{{ post.title }}</h1>
     <div class="post-meta">
       <time :datetime="post.date">{{ formatDate(post.date) }}</time>
       <span v-for="tag in post.tags" :key="tag" class="tag">#{{ tag }}</span>

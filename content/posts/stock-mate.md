@@ -14,7 +14,7 @@ draft: false
 
 Claude Code + [SpecKit](https://github.com/github/spec-kit) を使って、在庫管理アプリ「StockMate」を作ってみました📦
 
-> https://stock-mate-sigma.vercel.app
+> <https://stock-mate-sigma.vercel.app>
 
 AI の作業スピードには圧倒されましたが、まだまだ人間が頑張らないといけないところや、AI に任せすぎると自分の学びが減ってしまうことも体感できました。
 
@@ -48,11 +48,11 @@ AI の作業スピードには圧倒されましたが、まだまだ人間が�
 | デプロイ | Vercel |
 | AI | Claude Code + SpecKit |
 
-## 🛠️ Product
+## 🛠 Product
 
 完成した Web アプリがこちら👇️
 
-> https://stock-mate-sigma.vercel.app
+> <https://stock-mate-sigma.vercel.app>
 
 ### 1) 📦 在庫一覧画面
 

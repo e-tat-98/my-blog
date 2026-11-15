@@ -107,4 +107,7 @@ GitHub OAuth App（https://github.com/settings/developers）のコールバッ�
 
 ## メモ
 
+- Studio で「The content on GitHub differs from your website version」と出続けるときは、Nuxt Content と Studio で Markdown の解釈がずれている。次の書き方を避ける
+  - URL をそのまま書く（`https://...`）→ `<https://...>` か `[テキスト](https://...)` にする
+  - 見出しに異体字セレクタ付きの絵文字（`🛠️` など）を入れる → セレクタなしの絵文字にするか、見出しから外す
 - pnpm 11 以降は package.json の `pnpm` フィールドが読まれない。ネイティブビルドを許可するパッケージ（better-sqlite3 など）は `pnpm-workspace.yaml` の `allowBuilds` に書く
